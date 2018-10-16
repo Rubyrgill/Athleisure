@@ -1,0 +1,56 @@
+.animate {
+    display: inline;
+    margin: auto 0;
+    padding: 0;
+    border: 0;
+}
+
+.animate:before {
+    content: 'AMAZING';
+    -webkit-animation-name: animate;
+    -webkit-animation-duration: 2s;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+    0% {
+        content: 'AMAZING';
+    }
+    15% {
+        content: 'BEAUTIFUL';
+    }
+    30% {
+        content: 'STRONG';
+    }
+    45% {
+        content: 'POWERFUL';
+    }
+    60% {
+        content: 'DETERMINED';
+    }
+    75% {
+        content: 'DRIVEN';
+    }
+    90% {
+        content: 'SMART';
+    }
+    105% {
+        content: 'CONFIDENT';
+    }
+}
+
+.image-blurred-edge {
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px lightgray inset;
+}
+
+.imagescroll {
+    margin-top: 3%;
+}
+
+h1{
+    font-size: 80px;
+}
