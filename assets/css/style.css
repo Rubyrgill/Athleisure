@@ -54,3 +54,13 @@
 h1{
     font-size: 80px;
 }
+
+.collapsible-body{
+    background-color: whitesmoke;
+}
+
+.collapsible{
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 5%;
+}
