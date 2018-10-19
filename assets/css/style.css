@@ -52,9 +52,19 @@
 }
 
 h1{
-    font-size: 80px;
+    font-size: 800%;
+    margin-right: 10%;
+    margin-left: 15%;
+    margin-top: 10%;
+    border-radius: 20%;
+    color: #607d8b;
 }
 
+.definecompany {
+    margin-right: 10%;
+    margin-left: 35%;
+    color: #455a64;
+}
 .collapsible-body{
     background-color: whitesmoke;
 }
@@ -68,3 +78,9 @@ h1{
 .brand-logo{
     margin-left: 3%;
 }
+
+.header{
+    margin-left: 20%;
+    color: #455a64;
+}
+

@@ -24,3 +24,4 @@ $("#about-me-button").click(function () {
     },
         'slow');
 });
+
