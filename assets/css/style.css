@@ -84,3 +84,20 @@ h1{
     color: #455a64;
 }
 
+.slider {
+    Margin-top: 5%;
+    width: 50%;
+    height: 60%;
+    margin-left: 25%;
+}
+
+.drawing {
+    float: left;
+margin-left: 1%;
+    margin-top: 2%;
+    padding: 1%;
+    border: solid #455a64 2px; 
+}
+.myname{
+    margin-left: 40%;
+}
